@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-size: 1.2rem; */
 }
 .container{
  background: url(https://testres.yeemiao.com/article/7f3ea7d5307a4c3f8b8f34a6543fa472.jpg);
@@ -29,7 +28,7 @@
 }
 .headLine{
     width: 100%;
-    max-height:80px;
+    /* max-height:80px; */
     border: none;
     text-align: center;
     padding: 5px;
@@ -54,7 +53,7 @@
     height: 240px;
     background-color: #54453478;
     box-shadow: 0px 5px 3px 4px rgb(18, 14, 14);
-    margin-top: 20px;
+    margin-top: 3px;
 }
 .inputContainer>p{
     width: 100%;
@@ -97,6 +96,7 @@ button:active{
     padding: 8px;
     text-align: center;
     font-size: 1.2rem;
+    margin-top:10px;
 }
 .weightGuide{
     width: 56%;
@@ -105,6 +105,7 @@ button:active{
     text-align: center;
     font-size: 1.3rem;
     background: rgba(62, 4, 4, 0.614);
+    border: 2px solid black;
 }
 .weightGuide>h3{
     color: rgb(242, 206, 0);
@@ -113,4 +114,82 @@ button:active{
 }
 .weightGuide>p{
     color: rgb(30, 255, 116);
+}
+
+/* >>> Media query for responsive <<<*/
+
+@media(max-width:1080px) and (min-width:600px){
+    .container{
+      background-position: center;
+      background-size: cover;
+    }
+    .headLine{
+        font-size: 25px;
+    }
+    .weightGuide{
+        width:70%;
+    }
+}
+@media(max-width:600px) and (min-width:500px){
+   .container{
+    background-position: center;
+    background-size: cover;
+   }
+   .headLine{
+    font-size:20px;
+   }
+   .inputContainer{
+    width:50%;
+   }
+   .result{
+    width:50%;
+    font-size: 15px;
+   }
+   .weightGuide{
+    width:70%;
+    font-size: 20px;
+   }
+}
+@media(max-width:500px) and (min-width:400px){
+    .container{
+        background-position: center;
+        background-size: cover;
+       }
+       .headLine{
+        font-size:20px;
+       }
+       .inputContainer{
+        width:50%;
+       }
+       /* .inputContainer>p{
+        font-size: 20px;
+       } */
+       .result{
+        width:50%;
+        font-size: 13px;
+       }
+       .weightGuide{
+        width:70%;
+        font-size: 20px;
+       }
+}
+@media(max-width:400px) and (min-width:300px){
+    .container{
+        background-position: center;
+        background-size: cover;
+       }
+       .headLine{
+        font-size:20px;
+       }
+       .inputContainer{
+        width:50%;
+       }
+       .result{
+        width:50%;
+        font-size: 12px;
+       }
+       .weightGuide{
+        width:90%;
+        font-size: 19px;
+       }
 }
