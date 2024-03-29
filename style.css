@@ -89,13 +89,13 @@ button:active{
     background:transparent;
      border: none;
     color: rgb(245, 230, 237);
-    text-shadow: 1px 2px 3px black;
+    text-shadow: 1px 2px 3px red;
     font-weight: bold;
     height: 36px;
     width: 45%;
     padding: 8px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top:10px;
 }
 .weightGuide{
@@ -143,7 +143,7 @@ button:active{
    }
    .result{
     width:50%;
-    font-size: 15px;
+    font-size: 20px;
    }
    .weightGuide{
     width:70%;
@@ -166,7 +166,7 @@ button:active{
        } */
        .result{
         width:50%;
-        font-size: 13px;
+        font-size: 18px;
        }
        .weightGuide{
         width:70%;
@@ -186,7 +186,7 @@ button:active{
        }
        .result{
         width:50%;
-        font-size: 12px;
+        font-size: 17px;
        }
        .weightGuide{
         width:90%;
